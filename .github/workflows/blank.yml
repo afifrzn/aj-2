@@ -36,3 +36,6 @@ jobs:
           echo test, and deploy your project.
       - name: Print date
         run: date
+
+      - name: python file
+        run: python nama.py
