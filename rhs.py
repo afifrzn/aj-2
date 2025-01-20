@@ -1,6 +1,7 @@
 from dotenv import load_dotenv
 import os
 
+# load_dotenv(dotenv_path=".env")
 load_dotenv()
 
 nama_depan = os.getenv("VARIABLE_DEPAN")
